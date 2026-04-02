@@ -2,6 +2,7 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 import streamlit as st
 from concurrent.futures import ThreadPoolExecutor
+import torch
 
 load_dotenv()
 st.markdown("### You can select models of your choice from dropdown")
